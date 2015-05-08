@@ -1,0 +1,67 @@
+table.data {
+    width: 100%;
+    border: 4px double black;
+    border-collapse: collapse;
+}
+table.data-form,
+table.data-login {
+    border: 4px double black;
+    border-collapse: collapse;
+}
+.data th {
+    background: #ccc;
+}
+.data-search th {
+    background: #ccc;
+    font-weight: normal;
+}
+.data td {
+    color: gray;
+}
+
+.security {
+    color: blue;
+}
+.security-contact {
+    color: #E0E0E0;
+}
+.security-new {
+    color: #E0E0E0;
+}
+
+.menu,
+.black {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.black-active {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.data-form input[type="text"],
+.data-form select {
+    width: 250px;
+}
+.data-login input[type="text"] {
+
+}
+.disabled {
+    border: 0;
+    font-weight: bold;
+    width: 250px;
+}
+.checked {
+    background: #BBDDEE;
+}
+.edit,
+.search{
+    color: #00BB00;
+}
